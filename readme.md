@@ -1,3 +1,3 @@
-##Projects using HTML, JavaScript and CSS
+#Projects using HTML, JavaScript and CSS
 
-#A list of projects
+##A list of projects
