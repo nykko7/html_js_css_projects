@@ -5,7 +5,7 @@ Projects to practice my knowledge.
 
 ## 📂 List of projects:
 
-### 1. ⚜ [Quote Generator](https://nykko7.github.io/html_js_css_projects/quote_generator/index.html)
+### 1. ⚜ [Quote Generator](https://nykko7.github.io/html_js_css_projects/quote_generator)
  A simple App that make a asynchronous fetch request to a REST API in order to get a Quote. It also has a button that allows to tweet the quote.
 #### 📋 Features & Resources
 
@@ -16,8 +16,8 @@ Projects to practice my knowledge.
 - Quote API by [Type.fit](https://type.fit/api/quotes)
 - SVG Background Pattern by [Hero Patterns](https://breakdance.github.io/breakdance/).
 
-### 2. ⚜ [Infinite Scroll](https://nykko7.github.io/html_js_css_projects/infinite_scroll/index.html)
- A scrollable list of images obtained from **Unsplash.com** and when user scrolls near to the bottom of the page, a new request is made to load new images.
+### 2. ⚜ [Infinite Scroll](https://nykko7.github.io/html_js_css_projects/infinite_scroll)
+ A scrollable list of images obtained from **Unsplash.com** and when user scrolls near to the bottom of the page, a new request is made to load more images.
 #### 📋 Features & Resources
 
 - Mobile Responsive
