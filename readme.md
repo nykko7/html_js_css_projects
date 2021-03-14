@@ -3,7 +3,7 @@
 ## 📂 List of projects:
 
 ### 1.  ⚜ [Quote Generator](https://nykko7.github.io/html_js_css_projects/quote_generator/index.html)
- A simple App that make a asynchronous fetch request to a REST API in order to get a Quote. In addition, it will also have a button that allows to tweet the quote.
+ A simple App that make a asynchronous fetch request to a REST API in order to get a Quote. In addition, it will also has a button that allows to tweet the quote.
 #### 📋 Features
 
 - Mobile Responsive
