@@ -2,11 +2,11 @@
 
 Projects to practice my knowledge.
 
-
 ## 📂 List of projects:
 
 ### 1. ⚜ [Quote Generator](https://nykko7.github.io/html_js_css_projects/quote_generator)
  A simple App that make a asynchronous fetch request to a REST API in order to get a Quote. It also has a button that allows to tweet the quote.
+
 #### 📋 Features & Resources
 
 - Mobile Responsive
@@ -18,6 +18,7 @@ Projects to practice my knowledge.
 
 ### 2. ⚜ [Infinite Scroll](https://nykko7.github.io/html_js_css_projects/infinite_scroll)
  A scrollable list of images obtained from **Unsplash.com** and when user scrolls near to the bottom of the page, a new request is made to load more images.
+
 #### 📋 Features & Resources
 
 - Mobile Responsive
@@ -26,9 +27,16 @@ Projects to practice my knowledge.
 - Fetching Images from [Unsplash API](https://unsplash.com/developers)
 
 
+### 3. ⚜ [Picture in Picture](https://nykko7.github.io/html_js_css_projects/picture_in_picture)
+This is app allows to watch youtube videos or do other things concurrently in a pop window that stays in front of the screen view.
+
+#### 📋 Features & Resources
+- Picture-in-Picture API.
+- Screen Capture API.
+
+
 ## 📂 Under Construction:
 - Spock Rock Game - Confetti.js, Modules
-- Picture-in-Picture - Picture-in-Picture API, Screen Capture API
 - Bookmarks App - DOM, localStorage
 - NASA APOD - Fetch, Async/Await, NASA API, DOM, localStorage
 - Animated Navigation - CSS Animations
