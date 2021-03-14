@@ -52,7 +52,7 @@ const displayPhotos = () => {
 		});
 		// Create <p> for the title of the photo
 		const title = document.createElement('p');
-		title.innerHTML = photo.alt_description || 'No Title';
+		title.innerHTML = `Description: <span class="light"> ${photo.alt_description || 'No Description'}</span>`;
 		// Event Listener, check when each is finished loading
 		img.addEventListener('load', imageLoaded);
 		// Put <img> & <p> inside <a>, then put both inside imageContainer Element
