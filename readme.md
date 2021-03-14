@@ -23,7 +23,7 @@ Projects to practice my knowledge.
 - Mobile Responsive
 - Loading animation by [Loading.io](https://loading.io/).
 - Infinite Scroll funcionality by Scroll Event Listener.
-- Fetching Images with [Unsplash API](https://unsplash.com/developers)
+- Fetching Images from [Unsplash API](https://unsplash.com/developers)
 
 
 ## 📂 Under Construction:
