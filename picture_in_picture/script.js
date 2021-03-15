@@ -13,24 +13,26 @@ const selectMediaStream = async () => {
 		};
 	} catch (error) {
 		console.log('Error:', error);
-		//Enable Button
-		pipButton.disabled = false;
 	}
+};
+
+const closeConnection = () => {
+	let tracks = videoElement.srcObject.getTracks();
+	tracks.forEach((track) => track.stop());
+	videoElement.srcObject = null;
 };
 
 pipButton.addEventListener('click', async () => {
 	// Select Media Stream
-	selectMediaStream();
+	if (document.pictureInPictureElement) document.exitPictureInPicture();
+	else await selectMediaStream();
 });
 
 video.addEventListener('enterpictureinpicture', () => {
-	pipButton.textContent = 'Close PiP to use';
-	//Disable Button
-	pipButton.disabled = true;
+	pipButton.textContent = 'Close Picture in Picture';
 });
 
 video.addEventListener('leavepictureinpicture', () => {
-	pipButton.textContent = 'Select Media Stream';
-	//Enable Button
-	pipButton.disabled = false;
+	pipButton.textContent = 'Select Media to Stream';
+	closeConnection();
 });
